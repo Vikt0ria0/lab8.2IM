@@ -2,7 +2,7 @@ import random
 import tkinter as tk
 
 def bt_choose_click():
-    a = 0.4
+    a = 0.5
     p = random.random()
     if p > a:
         txt_answer.config(text="Да")
